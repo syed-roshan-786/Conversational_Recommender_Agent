@@ -6,10 +6,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 logger = logging.getLogger(__name__)
 
-# Fail fast if .env is missing to prevent hidden configuration bugs
-env_path = os.path.join(os.getcwd(), ".env")
-if not os.path.exists(env_path):
-    raise FileNotFoundError("CRITICAL STARTUP ERROR: .env file is missing! Please create a .env file from .env.example.")
+# .env file is loaded automatically by Pydantic Settings if present.
+# Render directly injects environment variables without a .env file.
 
 class Settings(BaseSettings):
     GROQ_API_KEY: str = ""
