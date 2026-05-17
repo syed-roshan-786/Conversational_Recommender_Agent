@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Occupational Personality Questionnaire (OPQ)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/occupational-personality-questionnaire-opq/",
+    "description": "The OPQ is the most powerful and widely used measure of behavioral style in the world. It provides a clear framework for understanding the impact of personality on job performance.",
+    "category": "Personality",
+    "skills_measured": ["Leadership", "Teamwork", "Problem Solving", "Resilience"],
+    "duration": "25-35 minutes",
+    "test_type": "Personality",
+    "keywords": ["behavior", "opq", "personality", "leadership"]
+  },
+  {
+    "name": "General Ability Tests (Verify GAT)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/verify-gat/",
+    "description": "Assess candidates' numerical, deductive, and inductive reasoning skills to evaluate their general cognitive ability and problem-solving potential.",
+    "category": "Cognitive Ability",
+    "skills_measured": ["Numerical Reasoning", "Deductive Reasoning", "Inductive Reasoning"],
+    "duration": "30-45 minutes",
+    "test_type": "Cognitive",
+    "keywords": ["math", "logic", "cognitive", "reasoning", "gat"]
+  },
+  {
+    "name": "Coding Simulation Tests",
+    "url": "https://www.shl.com/solutions/products/product-catalog/tech-hiring-coding-simulations/",
+    "description": "Evaluate technical candidates with real-world coding challenges across multiple programming languages including Java, Python, and C++.",
+    "category": "Technical",
+    "skills_measured": ["Programming", "Software Development", "Debugging", "Java", "Python"],
+    "duration": "60-90 minutes",
+    "test_type": "Skills",
+    "keywords": ["coding", "java", "python", "developer", "engineer"]
+  },
+  {
+    "name": "Situational Judgment Tests (SJT)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/situational-judgment-tests/",
+    "description": "Evaluate how candidates respond to specific, job-relevant scenarios to assess their alignment with role requirements and company culture.",
+    "category": "Behavioral",
+    "skills_measured": ["Decision Making", "Judgment", "Customer Focus"],
+    "duration": "20 minutes",
+    "test_type": "Behavioral",
+    "keywords": ["sjt", "situations", "judgment", "scenarios"]
+  }
+]
